@@ -1,6 +1,7 @@
 ---
 name: orchestrator
-description: Two-subagent generate/validate loop for code generation tasks.
+description: >-
+  Two-subagent generate/validate loop for code generation tasks.
   The orchestrator controls flow — it never generates or validates code itself.
   Triggers on: generate code, build feature, implement spec, create component,
   or any multi-step code production task that benefits from iterative validation.

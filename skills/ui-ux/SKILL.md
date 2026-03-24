@@ -1,6 +1,7 @@
 ---
 name: ui-ux
-description: UI generation and validation skill for React + Tailwind projects.
+description: >-
+  UI generation and validation skill for React + Tailwind projects.
   Use whenever building screens, layouts, components, or any UI task.
   Enforces layered composition - screens must be built from layout patterns
   and assembly components, never directly from atoms. Triggers on: build a screen,
