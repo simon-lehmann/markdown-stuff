@@ -40,4 +40,4 @@ pnpm monorepo
 TypeScript (sometimes .NET 10)
 
 ## Testing
-Playwright for E2E — skip unit tests
+Playwright for E2E — no unit test framework preference
