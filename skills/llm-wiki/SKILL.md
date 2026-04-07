@@ -39,13 +39,13 @@ wiki-vault/               # git submodule → private repo
 
 ## Setup
 
-First-time setup for a new wiki vault:
+Run when `wiki-vault/` is missing or the submodule isn't initialized:
 
-1. Create the repo with `raw/`, `wiki/` (with subdirs), `index.md`, `log.md`, `schema.md`
-2. Commit, push to a **private** remote
-3. Add `wiki-vault/` to the project's `.gitignore` — prevents leaking wiki content if the submodule isn't properly initialized
-4. Add as submodule in the project: `git submodule add <url> wiki-vault`
-5. If already cloned without the submodule: `git submodule update --init`
+1. Add `wiki-vault/` to the project's `.gitignore` (if not already there) — prevents leaking wiki content if the submodule isn't properly initialized
+2. Add the submodule: `git submodule add https://github.com/simon-lehmann/personal-wiki.git wiki-vault`
+3. If already in `.gitmodules` but not cloned: `git submodule update --init wiki-vault`
+4. Verify: `ls wiki-vault/schema.md`
+5. Commit `.gitignore`, `.gitmodules`, and the `wiki-vault` submodule ref
 
 ## Operations
 
