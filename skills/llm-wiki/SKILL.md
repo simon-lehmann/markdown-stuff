@@ -43,8 +43,9 @@ First-time setup for a new wiki vault:
 
 1. Create the repo with `raw/`, `wiki/` (with subdirs), `index.md`, `log.md`, `schema.md`
 2. Commit, push to a **private** remote
-3. Add as submodule in the project: `git submodule add <url> wiki-vault`
-4. If already cloned without the submodule: `git submodule update --init`
+3. Add `wiki-vault/` to the project's `.gitignore` — prevents leaking wiki content if the submodule isn't properly initialized
+4. Add as submodule in the project: `git submodule add <url> wiki-vault`
+5. If already cloned without the submodule: `git submodule update --init`
 
 ## Operations
 
