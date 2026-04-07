@@ -10,6 +10,7 @@ Personal skills I use in my day-to-day agentic development workflows. Built for 
 | **ui-ux** | Layered UI composition for React + Tailwind — enforces layout/assembly/atom hierarchy |
 | **grill-me** | Interview the user relentlessly about a plan or design until reaching shared understanding — inspired by [mattpocock/skills](https://github.com/mattpocock/skills) |
 | **slop-stack** | Preferred architecture and technology defaults — loaded silently when planning new apps |
+| **llm-wiki** | Persistent LLM-maintained knowledge base — markdown wiki in a git submodule with ingest, query, lint, and session capture |
 
 ## Install
 
@@ -26,4 +27,5 @@ npx skills add simon-lehmann/markdown-stuff --skill orchestrator
 npx skills add simon-lehmann/markdown-stuff --skill ui-ux
 npx skills add simon-lehmann/markdown-stuff --skill grill-me
 npx skills add simon-lehmann/markdown-stuff --skill slop-stack
+npx skills add simon-lehmann/markdown-stuff --skill llm-wiki
 ```
